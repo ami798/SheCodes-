@@ -26,7 +26,8 @@ while True:
         amount = float(input("Enter the amount to deposit: ").strip())
         if amount > 0:
             balance += amount
-            print(f"${amount} has been deposited. Your new balance is: ${balance}")
+            print(f"${amount} has been deposited. .
+            Your new balance is: ${balance}")
         else:
             print("Deposit amount must be positive.")
     
